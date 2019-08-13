@@ -33,6 +33,12 @@ def find_a(array)
   }
 end
 
+# using find_all method
+# def find_a(array)
+#   array.find_all do |word|
+#     word[0] == "a"
+#   end
+
 def sum_array(array)
     array.inject {|sum, n|
     sum + n
