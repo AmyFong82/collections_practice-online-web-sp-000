@@ -47,3 +47,13 @@ end
 
 array = [1, 2, 3]
 array [0], array[1], array[2] = array[0], array[2], array[1]
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
+array = ["aaaa", 'bbbb']
+
+kesha_maker(array)
